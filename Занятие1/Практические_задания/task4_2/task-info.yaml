@@ -40,7 +40,7 @@ files:
     status: Unchecked
     encrypted_possible_answer: '_ in range(10):'
   - offset: 247
-    length: 76
+    length: 68
     placeholder_text: 'num)  # TODO с помощью next получать следующий элемент от итератора'
     initial_state:
       length: 67
