@@ -31,19 +31,19 @@ files:
       length: 62
       offset: 43
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: map(hex, numbers)
   - offset: 131
-    length: 81
+    length: 103
     placeholder_text: '...:  # TODO используя zip объединить число и его шестнадцатеричное
       представление'
     initial_state:
       length: 81
       offset: 131
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 'zip(numbers, hex_numbers):'
   text: |
     def task(numbers: list):
@@ -60,5 +60,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 20 Apr 2022 16:33:41 UTC
 record: -1

@@ -23,7 +23,7 @@ files:
       offset: 128
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: return max(points, key=get_distance)
   text: |
     def get_distance(point: tuple) -> int:
@@ -53,5 +53,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 20 Apr 2022 16:15:54 UTC
 record: -1
