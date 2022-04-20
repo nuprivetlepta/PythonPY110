@@ -7,7 +7,6 @@ def task():
 
     for num in numbers:  # TODO напечатать первые 10 чисел
         print(num)  # TODO с помощью next получать следующий элемент от итератора
-asdasd
 
 if __name__ == "__main__":
     task()
