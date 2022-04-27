@@ -13,7 +13,6 @@ def second_gen(input_):
     yield input_  # данный yield никогда не будет выполнен
     input_ += 1
 
-
 if __name__ == "__main__":
     my_second_gen = second_gen(10)
 
