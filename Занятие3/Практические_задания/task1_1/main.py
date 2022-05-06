@@ -1,8 +1,8 @@
 def task():
-    filename = "input.txt"
+    filename = r"C:\Users\rodbely\PycharmProjects\Py110right\Занятие3\Практические_задания\task1_1\input.txt"
     with open(filename) as f:  # менеджер контекста открывает файл в режиме чтения в текстовом формате "rt"
         for line in f:  # файл является итератором, который построчно возвращает свое содержимое
-            # TODO c помощью метода строки strip очистить строку от непечатыемых символов
+            line = line.strip()
             print(line)
 
 
