@@ -10,7 +10,7 @@ files:
       length: 44
       offset: 27
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: |-
       def wrapper(str_arg):
@@ -19,14 +19,14 @@ files:
 
               result = fn(str_arg)
               return result
-  - offset: 94
-    length: 29
+  - offset: 258
+    length: 44
     placeholder_text: '# TODO задекорировать функцию'
     initial_state:
       length: 29
       offset: 94
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: '@min_len_check'
   text: |
@@ -50,5 +50,7 @@ files:
   visible: false
   learner_created: false
 status: Solved
+feedback:
+  time: Tue, 03 May 2022 17:37:19 UTC
 record: -1
 post_submission_on_open: true
